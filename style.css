@@ -25,7 +25,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+a{
+    text-decoration: none;
+}
 /* ---------SMOOTH SCROOL----------- */
 html{
     scroll-behavior: smooth;
@@ -638,6 +640,7 @@ footer{
     .about-info .contact-info{
         width: 100%;
     }
+
     .project-container{
         justify-content: center;
     }
@@ -663,5 +666,10 @@ footer{
     .input-field{
         width: 100%;
     }
+
+    .about-info .contact-info{
+        width: 100%;
+    }
+    
 }
 
